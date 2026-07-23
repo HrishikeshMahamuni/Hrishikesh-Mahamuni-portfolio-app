@@ -22,7 +22,7 @@ export default function About({ data }: AboutProps) {
       x: 0,
       transition: { duration: 0.8, ease: "easeOut" },
     },
-  };
+  } as const;;
 
   const textVariants = {
     hidden: { opacity: 0, x: 50 },
@@ -31,7 +31,7 @@ export default function About({ data }: AboutProps) {
       x: 0,
       transition: { duration: 0.8, ease: "easeOut" },
     },
-  };
+  } as const;;
 
   const tagContainerVariants = {
     hidden: { opacity: 0 },
@@ -39,7 +39,7 @@ export default function About({ data }: AboutProps) {
       opacity: 1,
       transition: { staggerChildren: 0.05, delayChildren: 0.2 },
     },
-  };
+  }  as const;;
 
   const tagVariants = {
     hidden: { opacity: 0, scale: 0.8 },
@@ -48,7 +48,7 @@ export default function About({ data }: AboutProps) {
       scale: 1,
       transition: { type: "spring", stiffness: 100 },
     },
-  };
+  } as const;;
 
   return (
     <section id="about" className="py-24 relative overflow-hidden bg-dark-bg/60 border-y border-white/5">
