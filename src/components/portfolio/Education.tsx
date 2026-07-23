@@ -57,7 +57,7 @@ export default function Education({ education }: EducationProps) {
                 >
                   
                   {/* timeline dot */}
-                  <div className="hidden absolute left-4 md:left-1/2 md:-ml-2.5  z-20 flex items-center justify-center w-5 h-5 rounded-full bg-dark-bg border-2 border-purple-500 shadow-[0_0_10px_rgba(168,85,247,0.8)] animate-pulse" />
+                  <div className=" absolute left-4 md:left-1/2 md:-ml-2.5  z-20 flex items-center justify-center w-5 h-5 rounded-full bg-dark-bg border-2 border-purple-500 shadow-[0_0_10px_rgba(168,85,247,0.8)] animate-pulse" />
 
                   {/* Spacer or Card content depending on index */}
                   {/* <div className={`w-full md:w-1/2 pl-6 md:px-0 ${isEven ? "md:pr-10 ml-16" : "md:pl-10 mr-16"}`}> */}
