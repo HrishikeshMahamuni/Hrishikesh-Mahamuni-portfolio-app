@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Plus, Edit, Trash2, X, Github, ExternalLink, Star, Upload, Save, HelpCircle } from "lucide-react";
+import { Plus, Edit, Trash2, X, ExternalLink, Star, Upload, Save, HelpCircle } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
 interface ProjectItem {
