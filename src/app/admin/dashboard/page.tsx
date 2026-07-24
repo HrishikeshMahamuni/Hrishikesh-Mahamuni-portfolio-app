@@ -2,13 +2,14 @@ import Link from "next/link";
 import { FolderKanban, Award, GraduationCap, Eye, PlusCircle, UserCircle2, ArrowRight } from "lucide-react";
 import { dataService } from "@/lib/dataService";
 
+
 export const revalidate = 0; // Disable static caching so it always reflects CMS updates in real-time
 
 export default async function AdminDashboardPage() {
   const projects = await dataService.getProjects();
   const skills = await dataService.getSkills();
   const education = await dataService.getEducation();
-
+ 
   // Dashboard Stats Config
   const stats = [
     { name: "Total Projects", value: projects.length, icon: FolderKanban, color: "text-purple-400 bg-purple-500/5 border-purple-500/10" },
